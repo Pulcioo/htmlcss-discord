@@ -138,9 +138,47 @@
 
 /* classi sezione 1 */
 
-.section1{
+.sec{
+    position: relative;
+    height: 600px;
     width: 100%;
 }
 
+.section{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section .image{
+    width: 70%;
+}
+
+.section .image img{
+    width: 600px;
+    margin-left: 35%;
+    
+}
+
+.section .description{
+    width: 18%;
+    
+}
+
+.section .description h2{
+    font-size: 35px;
+    padding-top: 30px;
+
+}
+
+.section .description p{
+    font-size: medium;
+    margin-top: 20px;
+    line-height: 20px;
+}
 
 /* fine  classi sezione 1 */
+
+/* classi sezione 2 */
