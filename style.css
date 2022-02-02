@@ -261,15 +261,56 @@
 .stars{
     height: 60px;
     background-image: url(img/stars.svg);
-    background-size: contain;  
-    background-repeat: no-repeat;  
+    background-size: contain;   
 }
 
 #evidence{
     font-size: 20px;
 }
 
-.violet{
+.character{
     color: white;
+    background-color:  rgb(141, 119, 238);
     text-decoration: none;
 }
+
+/* fine quarta sezione */
+
+/* inizio classi footer */
+
+footer{
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+}
+
+#inline{
+    display: inline-block;
+}
+
+.column h4{
+    font-size: 18px;
+    color: rgb(141, 119, 238);
+}
+
+.column img{
+    width: 20px;
+}
+
+.white{
+    color: white;
+}
+
+.violet{
+    color: rgb(141, 119, 238);
+}
+
+span{
+    display: block;
+}
+
+.column{
+    margin: 80px;
+    line-height: 25px;
+}
+
+/* fine classi footer */
