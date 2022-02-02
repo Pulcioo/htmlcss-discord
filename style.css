@@ -136,12 +136,13 @@
 
 /* fine classi bottom-header */
 
-/* classi sezione 1 */
+/* classi prima-terza sezione  */
 
-.sec{
+.sec2{
     position: relative;
     height: 600px;
     width: 100%;
+    background-color: lightgray;
 }
 
 .section{
@@ -153,18 +154,19 @@
 }
 
 .section .image{
-    width: 70%;
+    width: 50%;
+    margin-right: 30px;
 }
 
 .section .image img{
-    width: 600px;
-    margin-left: 35%;
+    width: 550px;
+    margin-left: 30%;
     
 }
 
 .section .description{
     width: 18%;
-    
+    margin-left: 100px;
 }
 
 .section .description h2{
@@ -179,6 +181,46 @@
     line-height: 20px;
 }
 
-/* fine  classi sezione 1 */
+/* fine  classi prima-terza sezione */
 
-/* classi sezione 2 */
+/* classi seconda sezione */
+
+.sec{
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.section2{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section2 .image{
+    width: 50%;
+}
+
+.section2 .image2 img{
+    width: 550px;
+    margin-left: 100px;
+}
+
+.section2 .description2{
+    width: 18%;
+    margin-left: 20%;
+}
+
+.section2 .description2 h2{
+    font-size: 35px;
+    padding-top: 30px;
+
+}
+
+.section2 .description2 p{
+    font-size: medium;
+    margin-top: 20px;
+    line-height: 20px;
+}
