@@ -52,6 +52,16 @@
 
 /* fine classi riutilizzabili*/
 
+/* hoover */
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+.black-btn:hover {
+    text-decoration: underline;
+}
+
 /* classi top-header*/
 
 .container{
@@ -88,10 +98,6 @@
     color: black;
     text-decoration: none;
 }
-
-.btn:hover {
-    text-decoration: underline;
-  }
 
 /* fine classi top-header*/
   
@@ -223,4 +229,47 @@
     font-size: medium;
     margin-top: 20px;
     line-height: 20px;
+}
+
+/* inizio quarta sezione */
+
+.sec4{
+    height: 900px;
+    background-color: lightgray;
+    position: relative;
+    text-align: center;
+}
+
+.sec4 .text h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.sec4 .text p{
+    font-size: medium;
+    line-height: 25px;
+}
+
+.sec4 .set{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.stars{
+    height: 60px;
+    background-image: url(img/stars.svg);
+    background-size: contain;  
+    background-repeat: no-repeat;  
+}
+
+#evidence{
+    font-size: 20px;
+}
+
+.violet{
+    color: white;
+    text-decoration: none;
 }
